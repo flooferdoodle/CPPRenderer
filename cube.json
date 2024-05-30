@@ -1,0 +1,28 @@
+{
+    "cam" : {
+        "pos" : [0, -1.5, 10],
+        "target" : [0, 0, 0],
+        "farClip" : 50
+    },
+
+    "objects" : [
+        {
+            "type" : "cube",
+            "pos" : [0, 0.5, 0],
+            "color" : [0.5, 0, 0],
+            "euler" : [0, 1.4, 0],
+            "scale" : 1,
+            "shininess" : 2048
+        }
+    ],
+
+    "lights" : [
+        {
+            "type" : "point",
+            "pos" : [0, -0.2, -4],
+            "color" : [1, 1, 1],
+            "ambient" : 0.2,
+            "attenuation" : [1.0, 0.0014, 0.000007]
+        }
+    ]
+}

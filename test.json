@@ -1,0 +1,59 @@
+{
+    "cam" : {
+        "pos" : [0.0, -3, 0.1],
+        "target" : [0, 0, 0],
+        "farClip" : 50
+    },
+
+    "objects" : [
+        {
+            "type" : "plane",
+            "pos" : [0, 0, 0],
+            "euler" : [0, 0, 0],
+            "shininess" : 4096,
+            "scale" : 5
+        },
+        {
+            "type" : "cube",
+            "pos" : [-0.25, -0.125, 0],
+            "color" : [0.5, 0, 0],
+            "euler" : [0, 1.4, 0],
+            "shininess" : 2048,
+            "scale" : 0.25,
+            "disable" : true
+        },
+        {
+            "type" : "icosphere",
+            "pos" : [0.2, -0.2, 0.6],
+            "color" : [0, 0.7, 0.2],
+            "scale" : 0.2,
+            "shininess" : 4096,
+            "subdivide" : 2,
+            "disable" : true
+        },
+        {
+            "type" : "icosahedron",
+            "pos" : [-0.1, -0.15, 1.3],
+            "euler" : [0, 0.6, 0],
+            "shininess" : 2048,
+            "scale" : 0.15,
+            "disable" : true
+        }
+    ],
+
+    "lights" : [
+        {
+            "type" : "point",
+            "pos" : [0, -0.1, 0],
+            "color" : [1, 1, 1],
+            "attenuation" : [1.0, 0.045, 0.0075]
+        },
+        {
+            "type" : "point",
+            "pos" : [0, 0, -6],
+            "color" : [1, 0, 0],
+            "attenuation" : [1.0, 0.5, 0.5],
+            "disable" : true
+        }
+    ]
+}
